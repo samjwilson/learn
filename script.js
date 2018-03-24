@@ -1,7 +1,8 @@
-const player = 'bobby';
-let experience = 100;
-let wizardLevel = false;
-
-if (experience > 90) {
-    let wizardLevel = true;
+const obj = {
+    player: 'bobby',
+    experience: 100,
+    wizardLevel: false,
 }
+
+const { player, experience } = obj;
+let { wizardLevel} = obj;
